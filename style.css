@@ -691,36 +691,30 @@ footer .social-links {
     gap: 6.7rem;
   }
 
-
   #about .col-a {
-  align-self: center;
+    align-self: center;
   }
 
   #about .content p {
     margin-bottom: 0;
   }
 
+  /*=== CONTACT ==========================================*/
 
-
-/*=== CONTACT ==========================================*/
-
-#contact .wrapper {
+  #contact .wrapper {
     grid-template-columns: 1fr 57.5rem;
     grid-template-areas: 'A B';
-}
+  }
 
-#contact h2 {
+  #contact h2 {
+    width: 40.4rem;
+  }
 
-      width: 40.4rem;
-}
-
-
-
-/*=== FOOTER ==========================================*/
+  /*=== FOOTER ==========================================*/
   footer {
     padding-block: 8rem;
   }
-  footer .wrapper{
+  footer .wrapper {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 'A B';
   }
@@ -733,17 +727,4 @@ footer .social-links {
     align-self: center;
     justify-self: flex-end;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
